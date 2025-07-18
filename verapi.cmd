@@ -1,0 +1,1 @@
+docker run --rm -it --mount "type=bind,source=C:\Users\WilliamTrotter\.veracode\,target=/root/.veracode/" verapi:latest %*c
