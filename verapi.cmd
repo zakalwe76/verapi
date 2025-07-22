@@ -1,1 +1,1 @@
-docker run --rm -it --mount "type=bind,source=C:\Users\WilliamTrotter\.veracode\,target=/root/.veracode/" -v "%cd%":/project verapi:latest %*
+docker run --rm -it --mount "type=bind,source=%USERPROFILE%\.veracode\,target=/root/.veracode/" -v "%cd%":/project verapi:latest %*
